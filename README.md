@@ -62,10 +62,10 @@ four spaces, as per the markdown spec:
 See? It isn't highlighted. Now here's one fenced with
 triple-backquotes:
 
-```
-    function factorial(n) {
-      return n < 2 ? 1 : n * factorial(n - 1);
-    }
+``` javascript
+function factorial(n) {
+  return n < 2 ? 1 : n * factorial(n - 1);
+}
 ```
 
 Much better, if you're in the majority.
